@@ -11859,9 +11859,13 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .carousel-content .carousel-text {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
   color: white;
@@ -11878,6 +11882,7 @@ textarea.form-control-lg {
   font-size: 60px;
 }
 .carousel-content .carousel-text p {
+  text-align: center;
   width: 50vw;
   color: white;
   font-weight: bold;
@@ -11895,6 +11900,17 @@ textarea.form-control-lg {
   background: #ffb03b;
 }
 
+@media (max-width: 428px) {
+  .carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
+    font-size: 30px;
+  }
+  .carousel-content .carousel-text h1 span, .carousel-content .carousel-text .h1 span {
+    font-size: 30px;
+  }
+  .carousel-content .carousel-text p {
+    width: 80%;
+  }
+}
 nav {
   display: flex;
   align-items: center;

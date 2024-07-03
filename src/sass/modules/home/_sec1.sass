@@ -2,8 +2,12 @@
     display: flex
     flex-direction: column
     align-items: center
+    justify-content: center
     .carousel-text
-        text-align: center
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
         h1
             color: white
             font-family: Satisfy
@@ -17,6 +21,7 @@
                 font-style: normal
                 font-size: 60px
         p
+            text-align: center
             width: 50vw
             color: white
             font-weight: bold
@@ -31,3 +36,13 @@
             transition: 0.5s
             &:hover
                 background: #ffb03b
+
+@media (max-width: 428px)
+    .carousel-content
+        .carousel-text
+            h1
+                font-size: 30px
+                span
+                    font-size: 30px
+            p
+                width: 80%
