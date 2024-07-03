@@ -1,0 +1,77 @@
+nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 2vh 7vw
+    background: #211e1bc4
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 30000
+    .left-nav
+        h3
+            cursor: pointer
+            margin: 0
+            font-family: "Satisfy", cursive
+            font-weight: 500
+            font-style: normal
+            font-size: 40px
+            color: white
+    .right-nav
+        display: flex
+        align-items: center
+        gap: 1vw
+        input
+            display: none
+        .menu
+            display: none
+        .close
+            display: none
+        .right-nav-links
+            display: flex
+            align-items: center
+            gap: 2vw
+            .a-orange
+                color: #ffa012
+            a
+                text-decoration: none
+                color: white
+                &:hover
+                    color: #ffa012
+        .right-nav-btn
+            a
+                text-decoration: none
+                background: #ffb13bd0
+                color: white
+                padding: 10px 25px
+                border-radius: 50px
+                font-weight: bold
+                &:hover
+                    background: #ffb03b
+@media (max-width: 428px)
+    nav
+        padding: 2vh 3vw
+        .right-nav
+            flex-direction: row-reverse
+            .menu
+                display: flex
+            .right-nav-links
+                position: fixed
+                top: -500%
+                left: 0
+                height: 100vh
+                width: 100vw
+                background: white
+                flex-direction: column
+                align-items: start
+                padding: 2vh 5vw
+                gap: 3vh
+                .close
+                    display: flex
+                    
+                a
+                    color: black
+    #switch
+        &:checked + .right-nav-links
+            top: 0
+            
