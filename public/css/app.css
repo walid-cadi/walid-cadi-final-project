@@ -11855,62 +11855,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.carousel-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.carousel-content .carousel-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
-  color: white;
-  font-family: Satisfy;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 60px;
-}
-.carousel-content .carousel-text h1 span, .carousel-content .carousel-text .h1 span {
-  color: #ffa012;
-  font-family: Satisfy;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 60px;
-}
-.carousel-content .carousel-text p {
-  text-align: center;
-  width: 50vw;
-  color: white;
-  font-weight: bold;
-}
-.carousel-content .carousel-btn .crs-btn {
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0);
-  padding: 12px 30px;
-  border-radius: 50px;
-  border: 2px solid #ffb03b;
-  color: white;
-  transition: 0.5s;
-}
-.carousel-content .carousel-btn .crs-btn:hover {
-  background: #ffb03b;
-}
-
-@media (max-width: 428px) {
-  .carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
-    font-size: 30px;
-  }
-  .carousel-content .carousel-text h1 span, .carousel-content .carousel-text .h1 span {
-    font-size: 30px;
-  }
-  .carousel-content .carousel-text p {
-    width: 80%;
-  }
-}
 nav {
   display: flex;
   align-items: center;
@@ -12002,6 +11946,123 @@ nav .right-nav .right-nav-btn a:hover {
   }
   #switch:checked + .right-nav-links {
     top: 0;
+  }
+}
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-content .carousel-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
+  color: white;
+  font-family: Satisfy;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+}
+.carousel-content .carousel-text h1 span, .carousel-content .carousel-text .h1 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+}
+.carousel-content .carousel-text p {
+  text-align: center;
+  width: 50vw;
+  color: white;
+  font-weight: bold;
+}
+.carousel-content .carousel-btn .crs-btn {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: 2px solid #ffb03b;
+  color: white;
+  transition: 0.5s;
+}
+.carousel-content .carousel-btn .crs-btn:hover {
+  background: #ffb03b;
+}
+
+@media (max-width: 428px) {
+  .carousel-content .carousel-text h1, .carousel-content .carousel-text .h1 {
+    font-size: 30px;
+  }
+  .carousel-content .carousel-text h1 span, .carousel-content .carousel-text .h1 span {
+    font-size: 30px;
+  }
+  .carousel-content .carousel-text p {
+    width: 80%;
+  }
+}
+.sec2 {
+  display: flex;
+  align-items: start;
+  background: #fffaf3;
+  padding: 10vh 0;
+}
+.sec2 .right-sec2 {
+  width: 45vw;
+  padding-inline: 7vw;
+}
+.sec2 .right-sec2 .first-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.sec2 .right-sec2 .first-text h2, .sec2 .right-sec2 .first-text .h2 {
+  font-family: Satisfy;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: bold;
+}
+.sec2 .right-sec2 .first-text h2 span, .sec2 .right-sec2 .first-text .h2 span {
+  font-family: Satisfy;
+  font-weight: 500;
+  font-style: normal;
+}
+.sec2 .right-sec2 .first-text p {
+  color: #848484;
+}
+.sec2 .right-sec2 .second-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.sec2 .right-sec2 .second-text p {
+  color: #848484;
+}
+.sec2 .right-sec2 .second-text .tx-ic .text-icon {
+  display: flex;
+  gap: 1vw;
+}
+.sec2 .right-sec2 .second-text .tx-ic .text-icon i {
+  color: #ffa012;
+}
+.sec2 .right-sec2 .second-text .tx-ic .text-icon p {
+  color: #000;
+  font-weight: bold;
+}
+
+@media (max-width: 428px) {
+  .sec2 {
+    flex-direction: column;
+    gap: 2vh;
+  }
+  .sec2 video {
+    width: 100vw;
+  }
+  .sec2 .right-sec2 {
+    width: 100vw;
   }
 }
 
