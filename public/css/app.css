@@ -12011,15 +12011,16 @@ nav .right-nav .right-nav-btn a:hover {
   padding: 10vh 0;
 }
 .sec2 .right-sec2 {
-  width: 45vw;
-  padding-inline: 7vw;
+  width: 70vw;
+  padding-inline: 5vw;
 }
 .sec2 .right-sec2 .first-text {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 5px;
 }
 .sec2 .right-sec2 .first-text h2, .sec2 .right-sec2 .first-text .h2 {
+  margin: 0;
   font-family: Satisfy;
   font-weight: 500;
   font-style: normal;
@@ -12031,6 +12032,7 @@ nav .right-nav .right-nav-btn a:hover {
   font-style: normal;
 }
 .sec2 .right-sec2 .first-text p {
+  margin: 0;
   color: #848484;
 }
 .sec2 .right-sec2 .second-text {
@@ -12041,14 +12043,20 @@ nav .right-nav .right-nav-btn a:hover {
 .sec2 .right-sec2 .second-text p {
   color: #848484;
 }
+.sec2 .right-sec2 .second-text .tx-ic {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
 .sec2 .right-sec2 .second-text .tx-ic .text-icon {
   display: flex;
-  gap: 1vw;
+  gap: 1vh;
 }
 .sec2 .right-sec2 .second-text .tx-ic .text-icon i {
   color: #ffa012;
 }
 .sec2 .right-sec2 .second-text .tx-ic .text-icon p {
+  margin: 0;
   color: #000;
   font-weight: bold;
 }
