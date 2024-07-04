@@ -12363,5 +12363,39 @@ nav .right-nav .right-nav-btn a:hover {
     width: 100%;
   }
 }
+.sec10 {
+  background-image: url("../img/testimonials-bg.jpg");
+  background-size: cover;
+  padding: 10vh 5vw;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  text-align: center;
+}
+.carousel-content img {
+  border: 6px solid rgba(255, 255, 255, 0.1490196078);
+  border-radius: 50%;
+}
+.carousel-content h3, .carousel-content .h3 {
+  color: white;
+}
+.carousel-content h5, .carousel-content .h5 {
+  color: #756f6b;
+}
+.carousel-content .start {
+  display: flex;
+}
+.carousel-content .start i {
+  color: #ffb03b;
+}
+.carousel-content p {
+  color: white;
+  font-weight: bold;
+  width: 60vw;
+}
 
 /*# sourceMappingURL=app.css.map */
