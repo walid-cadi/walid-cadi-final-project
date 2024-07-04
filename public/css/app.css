@@ -12151,6 +12151,68 @@ nav .right-nav .right-nav-btn a:hover {
     width: 100%;
   }
 }
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  padding: 10vh 5vw;
+}
+.sec4 h2, .sec4 .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec4 h2 span, .sec4 .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec4 .sec4-collaps {
+  display: flex;
+  flex-direction: column;
+}
+.sec4 .sec4-collaps .sec4-collaps-btn {
+  display: flex;
+  justify-content: center;
+}
+.sec4 .sec4-collaps .sec4-collaps-btn button {
+  background: #fff;
+  border: none;
+  border: 2px solid #ffb03b;
+  border-radius: 50px;
+  padding: 10px 16px;
+}
+.sec4 .sec4-collaps .sec4-collaps-btn button:hover {
+  background: #ffb03b;
+  color: white;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1vw;
+  height: 100vh;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .menu {
+  display: flex;
+  flex-direction: column;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text {
+  display: flex;
+  gap: 3px;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text h4, .sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text .h4 {
+  color: #ffb03b;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text h5, .sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text .h5 {
+  font-weight: bold;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .menu p {
+  color: gray;
+}
+
 .sec6 {
   background-image: url("../img/events-bg.jpg");
   background-size: cover;
