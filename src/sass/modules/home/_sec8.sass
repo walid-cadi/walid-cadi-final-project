@@ -1,0 +1,50 @@
+.sec8
+    display: flex
+    flex-direction: column
+    gap: 2vh
+    padding: 10vh 2vw
+    .sec8-text
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 2vh
+        h2
+            font-family: Satisfy
+            font-weight: 700
+            font-style: normal
+            span
+                color: #ffa012
+                font-family: Satisfy
+                font-weight: 700
+                font-style: normal
+        p
+            text-align: center
+            width: 45vw
+    .sec8-imgs
+        display: flex
+        flex-wrap: wrap
+        gap: 2px
+        overflow: hidden
+        position: relative
+        .gallery
+            overflow: hidden
+            position: relative
+            
+            img
+                transition: 0.5s
+                &:hover
+                    transform: scale(1.3)
+
+@media (max-width: 428px)
+    .sec8
+        .sec8-text
+            p
+                width: 90vw
+        .sec8-imgs
+            display: flex
+            flex-direction: column
+            flex-wrap: nowrap
+            .gallery
+                width: 95vw
+                img
+                    width: 100%

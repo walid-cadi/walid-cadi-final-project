@@ -12255,7 +12255,6 @@ nav .right-nav .right-nav-btn a:hover {
 }
 .sec7 .sec7-form form {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 4vh;
 }
@@ -12272,7 +12271,10 @@ nav .right-nav .right-nav-btn a:hover {
   width: 83vw;
   padding: 1vh 1vw;
 }
-.sec7 .sec7-form form button {
+.sec7 .sec7-form form .btn {
+  text-align: center;
+}
+.sec7 .sec7-form form .btn button {
   width: 20vw;
   border: none;
   background: #ffb03b;
@@ -12281,7 +12283,7 @@ nav .right-nav .right-nav-btn a:hover {
   border-radius: 50px;
   transition: 0.5s;
 }
-.sec7 .sec7-form form button:hover {
+.sec7 .sec7-form form .btn button:hover {
   background: #ffa012;
 }
 
@@ -12298,6 +12300,67 @@ nav .right-nav .right-nav-btn a:hover {
   }
   .sec7 .sec7-form form button {
     width: 50vw;
+  }
+}
+.sec8 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 10vh 2vw;
+}
+.sec8 .sec8-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.sec8 .sec8-text h2, .sec8 .sec8-text .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec8 .sec8-text h2 span, .sec8 .sec8-text .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec8 .sec8-text p {
+  text-align: center;
+  width: 45vw;
+}
+.sec8 .sec8-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.sec8 .sec8-imgs .gallery {
+  overflow: hidden;
+  position: relative;
+}
+.sec8 .sec8-imgs .gallery img {
+  transition: 0.5s;
+}
+.sec8 .sec8-imgs .gallery img:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 428px) {
+  .sec8 .sec8-text p {
+    width: 90vw;
+  }
+  .sec8 .sec8-imgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .sec8 .sec8-imgs .gallery {
+    width: 95vw;
+  }
+  .sec8 .sec8-imgs .gallery img {
+    width: 100%;
   }
 }
 
