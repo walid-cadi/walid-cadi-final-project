@@ -11894,9 +11894,6 @@ nav .right-nav .right-nav-links {
   align-items: center;
   gap: 2vw;
 }
-nav .right-nav .right-nav-links .a-orange {
-  color: #ffa012;
-}
 nav .right-nav .right-nav-links a {
   text-decoration: none;
   color: white;
@@ -12188,12 +12185,15 @@ nav .right-nav .right-nav-btn a:hover {
   background: #ffb03b;
   color: white;
 }
+.sec4 .sec4-collaps .sec4-collaps-btn button:active {
+  background: #ffb03b;
+  color: white;
+}
 .sec4 .sec4-collaps .sec4-collaps-menu {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1vw;
-  height: 100vh;
 }
 .sec4 .sec4-collaps .sec4-collaps-menu .menu {
   display: flex;
@@ -12213,6 +12213,21 @@ nav .right-nav .right-nav-btn a:hover {
   color: gray;
 }
 
+@media (max-width: 428px) {
+  .sec4 .sec4-collaps .sec4-collaps-btn {
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
+  .sec4 .sec4-collaps .sec4-collaps-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .sec4 .sec4-collaps .sec4-collaps-menu .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .sec6 {
   background-image: url("../img/events-bg.jpg");
   background-size: cover;

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <div class="sec1">
+  <div class="sec1" id="sec1">
     <nav>
       <div class="left-nav">
         <h3>Delicious</h3>
@@ -24,17 +24,17 @@
         <input type="checkbox" id="switch" />
         <div class="right-nav-links">
           <label class="close" for="switch"><i class="bi bi-x-lg text-dark fs-1"></i></label>
-          <a class="a-orange" href="">Home</a>
-          <a href="">About</a>
-          <a href="">Menu</a>
-          <a href="">Specials</a>
-          <a href="">Events</a>
-          <a href="">Chefs</a>
-          <a href="">Gallery</a>
-          <a href="">Contact</a>
+          <a href="#sec1">Home</a>
+          <a href="#sec2">About</a>
+          <a href="#sec4">Menu</a>
+          <a href="#">Specials</a>
+          <a href="#sec6">Events</a>
+          <a href="#">Chefs</a>
+          <a href="#sec8">Gallery</a>
+          <a href="#sec11">Contact</a>
         </div>
         <div class="right-nav-btn">
-          <a href="">Book a table</a>
+          <a href="#sec7">Book a table</a>
         </div>
       </div>
     </nav>
@@ -61,8 +61,8 @@
                 </p>
               </div>
               <div class="carousel-btn">
-                <a class="crs-btn" href="">OUR MENU</a>
-                <a class="crs-btn" href="">BOOK TABLE</a>
+                <a class="crs-btn" href="#sec4">OUR MENU</a>
+                <a class="crs-btn" href="#sec7">BOOK TABLE</a>
               </div>
             </div>
           </div>
@@ -80,8 +80,8 @@
                 </p>
               </div>
               <div class="carousel-btn">
-                <a class="crs-btn" href="">OUR MENU</a>
-                <a class="crs-btn" href="">BOOK TABLE</a>
+                <a class="crs-btn" href="#sec4">OUR MENU</a>
+                <a class="crs-btn" href="#sec7">BOOK TABLE</a>
               </div>
             </div>
           </div>
@@ -99,8 +99,8 @@
                 </p>
               </div>
               <div class="carousel-btn">
-                <a class="crs-btn" href="">OUR MENU</a>
-                <a class="crs-btn" href="">BOOK TABLE</a>
+                <a class="crs-btn" href="#sec4">OUR MENU</a>
+                <a class="crs-btn" href="#sec7">BOOK TABLE</a>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@
       </div>
     </div>
   </div>
-  <div class="sec2">
+  <div class="sec2" id="sec2">
     <div class="left-sec2">
       <video width="600" controls poster="./public/img/about.jpg">
         <source src="./public/videos/Restaurant Ad Video Template (Editable).mp4" type="video/mp4" />
@@ -169,7 +169,7 @@
       </div>
     </div>
   </div>
-  <div class="sec3">
+  <div class="sec3" id="sec3">
     <div class="sec3-text">
       <h2>Why choose <span>Our Restaurant</span></h2>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
@@ -193,12 +193,12 @@
       </div>
     </div>
   </div>
-  <div class="sec4">
+  <div class="sec4" id="sec4">
     <h2>Check our tasty <span>Menu</span></h2>
     <div class="sec4-collaps">
       <div class="sec4-collaps-btn">
         <p class="d-inline-flex gap-2">
-          <button class="" data-bs-toggle="collapse" data-bs-target="#Starters" type="button"
+          <button class="" data-bs-toggle="collapse" data-bs-target=".multi-collapse" type="button"
             aria-expanded="false" aria-controls="Starters Specialty Salads">Show All</button>
           <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#Starters" aria-expanded="false"
             aria-controls="Starters">Starters</button>
@@ -209,85 +209,88 @@
         </p>
       </div>
       <div class="sec4-collaps-menu">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div class="menu accordion-collapse collapse card card-body" id="Starters">
-          <div class="menu-text">
-            <h4>Lobster Bisque</h4>
-            <span>......................................................</span>
-            <h5>$5.95</h5>
+        <div class="collapse multi-collapse" id="Starters">
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Lobster Bisque</h4>
+              <span>......................................................</span>
+              <h5>$5.95</h5>
+            </div>
+            <p>Lorem, deren, trataro, filede, nerada</p>
           </div>
-          <p>Lorem, deren, trataro, filede, nerada</p>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Crab Cake</h4>
+              <span>......................................................</span>
+              <h5>$7.95</h5>
+            </div>
+            <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+          </div>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Mozzarella Stick</h4>
+              <span>......................................................</span>
+              <h5>$4.95</h5>
+            </div>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
         </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Specialty">
-          <div class="menu-text">
-            <h4>Bread barrel</h4>
-            <span>......................................................</span>
-            <h5>$6.95</h5>
+        <div class="collapse multi-collapse" id="Specialty">
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Bread barrel</h4>
+              <span>......................................................</span>
+              <h5>$6.95</h5>
+            </div>
+            <p>Lorem, deren, trataro, filede, nerada</p>
           </div>
-          <p>Lorem, deren, trataro, filede, nerada</p>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Tuscan Grilled</h4>
+              <span>......................................................</span>
+              <h5>$9.95</h5>
+            </div>
+            <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+          </div>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Lobster Roll</h4>
+              <span>......................................................</span>
+              <h5>$12.95</h5>
+            </div>
+            <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+          </div>
         </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Starters">
-          <div class="menu-text">
-            <h4>Crab Cake</h4>
-            <span>......................................................</span>
-            <h5>$7.95</h5>
+        <div class="collapse multi-collapse" id="Salads">
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Caesar Selections</h4>
+              <span>......................................................</span>
+              <h5>$8.95</h5>
+            </div>
+            <p>Lorem, deren, trataro, filede, nerada</p>
           </div>
-          <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Salads">
-          <div class="menu-text">
-            <h4>Caesar Selections</h4>
-            <span>......................................................</span>
-            <h5>$8.95</h5>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Greek Salad</h4>
+              <span>......................................................</span>
+              <h5>$9.95</h5>
+            </div>
+            <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
           </div>
-          <p>Lorem, deren, trataro, filede, nerada</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Specialty">
-          <div class="menu-text">
-            <h4>Tuscan Grilled</h4>
-            <span>......................................................</span>
-            <h5>$9.95</h5>
+          <div class="menu">
+            <div class="menu-text">
+              <h4>Spinach Salad</h4>
+              <span>......................................................</span>
+              <h5>$9.95</h5>
+            </div>
+            <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
           </div>
-          <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Starters">
-          <div class="menu-text">
-            <h4>Mozzarella Stick</h4>
-            <span>......................................................</span>
-            <h5>$4.95</h5>
-          </div>
-          <p>Lorem, deren, trataro, filede, nerada</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Salads">
-          <div class="menu-text">
-            <h4>Greek Salad</h4>
-            <span>......................................................</span>
-            <h5>$9.95</h5>
-          </div>
-          <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Salads">
-          <div class="menu-text">
-            <h4>Spinach Salad</h4>
-            <span>......................................................</span>
-            <h5>$9.95</h5>
-          </div>
-          <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
-        </div>
-        <div class="menu accordion-collapse collapse card card-body" id="Specialty">
-          <div class="menu-text">
-            <h4>Lobster Roll</h4>
-            <span>......................................................</span>
-            <h5>$12.95</h5>
-          </div>
-          <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="sec6">
+  <div class="sec6" id="sec6">
     <div class="sec6-content">
       <h2>Organize Your <span>Events</span> in our Restaurant</h2>
       <div class="sec6-carousel">
@@ -402,7 +405,7 @@
       </div>
     </div>
   </div>
-  <div class="sec7">
+  <div class="sec7" id="sec7">
     <div class="sec7-text">
       <h2>Book a <span>Table</span></h2>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
@@ -426,7 +429,7 @@
 
     </div>
   </div>
-  <div class="sec8">
+  <div class="sec8" id="sec8">
     <div class="sec8-text">
       <h2>Some photos from <span>Our Restaurant</span></h2>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
@@ -443,7 +446,7 @@
       <div class="gallery"><img width="320" src="./public/img/gallery/gallery-8.jpg" alt=""></div>
     </div>
   </div>
-  <div class="sec10">
+  <div class="sec10" id="sec10">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -467,7 +470,7 @@
       </div>
     </div>
   </div>
-  <div class="sec11">
+  <div class="sec11" id="sec11">
     <div class="sec11-text">
       <h2><span>Contact</span>Us</h2>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
@@ -544,7 +547,7 @@
       </div>
     </div>
   </div>
-  <footer>
+  <footer id="footer">
     <div class="foot-text">
       <h2>Delicious</h2>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>

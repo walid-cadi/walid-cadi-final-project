@@ -19,7 +19,6 @@
         .sec4-collaps-btn
             display: flex
             justify-content: center
-            
             button
                 background: #fff
                 border: none
@@ -29,12 +28,14 @@
                 &:hover
                     background: #ffb03b
                     color: white
+                &:active
+                    background: #ffb03b
+                    color: white
         .sec4-collaps-menu
             display: flex
             flex-direction: column
             flex-wrap: wrap
             gap: 1vw
-            height: 100vh
             .menu
                 display: flex
                 flex-direction: column
@@ -47,3 +48,16 @@
                         font-weight: bold
                 p
                     color: gray
+@media (max-width: 428px)
+    .sec4
+        .sec4-collaps
+            .sec4-collaps-btn
+                flex-wrap: wrap
+                gap: 5vw
+            .sec4-collaps-menu
+                    display: flex
+                    flex-direction: column
+                    flex-wrap: nowrap
+                    .menu
+                        display: flex
+                        flex-direction: column
