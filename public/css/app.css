@@ -12151,5 +12151,154 @@ nav .right-nav .right-nav-btn a:hover {
     width: 100%;
   }
 }
+.sec6 {
+  background-image: url("../img/events-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  padding: 10vh 5vw;
+}
+.sec6 .sec6-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+.sec6 .sec6-content h2, .sec6 .sec6-content .h2 {
+  color: white;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec6 .sec6-content h2 span, .sec6 .sec6-content .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item {
+  display: flex;
+  gap: 2vw;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item img {
+  width: 50%;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content h3, .sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content .h3 {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content h4, .sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content .h4 {
+  font-weight: bold;
+  border-bottom: 2px solid #ffa012;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content p {
+  font-weight: bold;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content .tx-ic {
+  display: flex;
+  flex-direction: column;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content .tx-ic .text-icon {
+  display: flex;
+  gap: 1vw;
+}
+.sec6 .sec6-content .sec6-carousel .carousel-inner .carousel-item .carousel-content .tx-ic .text-icon i {
+  color: #ffa012;
+}
+
+@media (max-width: 428px) {
+  .carousel-inner .carousel-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  .carousel-inner .carousel-item .carousel-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.sec7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  padding: 10vh 5vw;
+}
+.sec7 .sec7-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.sec7 .sec7-text h2, .sec7 .sec7-text .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec7 .sec7-text h2 span, .sec7 .sec7-text .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec7 .sec7-text p {
+  text-align: center;
+  width: 45vw;
+}
+.sec7 .sec7-form {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 5vh 2vw;
+}
+.sec7 .sec7-form form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vh;
+}
+.sec7 .sec7-form form .sec7-form-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vh 4vw;
+}
+.sec7 .sec7-form form .sec7-form-input input {
+  width: 25vw;
+  padding: 1vh 1vw;
+}
+.sec7 .sec7-form form textarea {
+  width: 83vw;
+  padding: 1vh 1vw;
+}
+.sec7 .sec7-form form button {
+  width: 20vw;
+  border: none;
+  background: #ffb03b;
+  padding: 10px 24px;
+  color: white;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.sec7 .sec7-form form button:hover {
+  background: #ffa012;
+}
+
+@media (max-width: 428px) {
+  .sec7 .sec7-text p {
+    width: 90vw;
+  }
+  .sec7 .sec7-form form .sec7-form-input {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .sec7 .sec7-form form .sec7-form-input input {
+    width: 83vw;
+  }
+  .sec7 .sec7-form form button {
+    width: 50vw;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

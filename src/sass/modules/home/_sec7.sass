@@ -1,0 +1,67 @@
+.sec7
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 2vh
+    padding: 10vh 5vw
+    .sec7-text
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 2vh
+        h2
+            font-family: Satisfy
+            font-weight: 700
+            font-style: normal
+            span
+                color: #ffa012
+                font-family: Satisfy
+                font-weight: 700
+                font-style: normal
+        p
+            text-align: center
+            width: 45vw
+    .sec7-form
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
+        padding: 5vh 2vw
+        form
+            display: flex
+            align-items: center
+            flex-direction: column
+            gap: 4vh
+            .sec7-form-input
+                display: flex
+                flex-wrap: wrap
+                gap: 4vh 4vw
+                input
+                    width: 25vw
+                    padding: 1vh 1vw
+            textarea
+                width: 83vw
+                padding: 1vh 1vw
+            button
+                width: 20vw
+                border: none
+                background: #ffb03b
+                padding: 10px 24px
+                color: white
+                border-radius: 50px
+                transition: 0.5s
+                &:hover
+                    background: #ffa012
+@media (max-width: 428px)
+    .sec7
+        .sec7-text
+            p
+                width: 90vw
+        .sec7-form
+            form
+                .sec7-form-input
+                    flex-wrap: nowrap
+                    flex-direction: column
+                    input
+                        width: 83vw
+                button
+                    width: 50vw
+
+
