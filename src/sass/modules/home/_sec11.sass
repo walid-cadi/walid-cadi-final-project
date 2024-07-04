@@ -1,0 +1,107 @@
+.sec11
+    display: flex
+    flex-direction: column
+    gap: 2vh
+    padding: 10vh 0vw
+    .sec11-text
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 2vh
+        h2
+            font-family: Satisfy
+            font-weight: 700
+            font-style: normal
+            span
+                color: #ffa012
+                font-family: Satisfy
+                font-weight: 700
+                font-style: normal
+        p
+            text-align: center
+            width: 45vw
+    .sec11-contact
+        padding: 7vh 5vw
+        .contact
+            box-shadow: 0px 2px 15px #0000001a
+            display: flex
+            flex-direction: column
+            .contact-info
+                display: flex
+                padding: 5vh 3vw
+                .inf
+                    display: flex
+                    gap: 1vw
+                    width: 22vw
+                    .icon-info
+                        i
+                            color: #ffa012
+                            background: #ffa01216
+                            padding: 15px 15px
+                            border-radius: 50%
+                    &:hover
+                        .icon-info
+                            i
+                                transition: 1s
+                                color: white
+                                background: #ffa012
+                    .tx-info
+                        h4
+                            font-weight: bold
+                        p
+                            color: #7a7368
+
+            .contact-form
+                box-shadow: 0px 2px 15px #0000001a
+                padding: 5vh 3vw
+                form
+                    display: flex
+                    flex-direction: column
+                    gap: 2vh
+                    .input-contact1
+                        display: flex
+                        gap: 5vw
+                        input
+                            padding: 1vh 1vw
+                            width: 37.5vw
+                    .input-contact2
+                        input
+                            padding: 1vh 1vw
+                            width: 80vw
+                    .input-contact3
+                        textarea
+                            padding: 1vh 1vw
+                            width: 80vw
+                    .input-contact4
+                        text-align: center
+                        button
+                            width: 20vw
+                            border: none
+                            background: #ffb03b
+                            padding: 10px 24px
+                            color: white
+                            border-radius: 50px
+                            transition: 0.5s
+                            &:hover
+                                background: #ffa012
+
+
+
+
+@media (max-width: 428px)
+    .sec11
+        .sec11-text
+            p
+                width: 90vw
+        .sec11-contact
+            .contact
+                .contact-info
+                    flex-direction: column
+                    .inf
+                        width: 80vw
+                .contact-form
+                    form
+                        .input-contact4
+                            button
+                                width: 60vw
+

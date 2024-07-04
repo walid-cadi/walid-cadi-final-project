@@ -12250,7 +12250,7 @@ nav .right-nav .right-nav-btn a:hover {
   width: 45vw;
 }
 .sec7 .sec7-form {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1019607843);
   padding: 5vh 2vw;
 }
 .sec7 .sec7-form form {
@@ -12306,7 +12306,7 @@ nav .right-nav .right-nav-btn a:hover {
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  padding: 10vh 2vw;
+  padding: 10vh 2vh;
 }
 .sec8 .sec8-text {
   display: flex;
@@ -12396,6 +12396,123 @@ nav .right-nav .right-nav-btn a:hover {
   color: white;
   font-weight: bold;
   width: 60vw;
+}
+
+.sec11 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 10vh 0vw;
+}
+.sec11 .sec11-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.sec11 .sec11-text h2, .sec11 .sec11-text .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec11 .sec11-text h2 span, .sec11 .sec11-text .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec11 .sec11-text p {
+  text-align: center;
+  width: 45vw;
+}
+.sec11 .sec11-contact {
+  padding: 7vh 5vw;
+}
+.sec11 .sec11-contact .contact {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1019607843);
+  display: flex;
+  flex-direction: column;
+}
+.sec11 .sec11-contact .contact .contact-info {
+  display: flex;
+  padding: 5vh 3vw;
+}
+.sec11 .sec11-contact .contact .contact-info .inf {
+  display: flex;
+  gap: 1vw;
+  width: 22vw;
+}
+.sec11 .sec11-contact .contact .contact-info .inf .icon-info i {
+  color: #ffa012;
+  background: rgba(255, 160, 18, 0.0862745098);
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+.sec11 .sec11-contact .contact .contact-info .inf:hover .icon-info i {
+  transition: 1s;
+  color: white;
+  background: #ffa012;
+}
+.sec11 .sec11-contact .contact .contact-info .inf .tx-info h4, .sec11 .sec11-contact .contact .contact-info .inf .tx-info .h4 {
+  font-weight: bold;
+}
+.sec11 .sec11-contact .contact .contact-info .inf .tx-info p {
+  color: #7a7368;
+}
+.sec11 .sec11-contact .contact .contact-form {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1019607843);
+  padding: 5vh 3vw;
+}
+.sec11 .sec11-contact .contact .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact1 {
+  display: flex;
+  gap: 5vw;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact1 input {
+  padding: 1vh 1vw;
+  width: 37.5vw;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact2 input {
+  padding: 1vh 1vw;
+  width: 80vw;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact3 textarea {
+  padding: 1vh 1vw;
+  width: 80vw;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact4 {
+  text-align: center;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact4 button {
+  width: 20vw;
+  border: none;
+  background: #ffb03b;
+  padding: 10px 24px;
+  color: white;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.sec11 .sec11-contact .contact .contact-form form .input-contact4 button:hover {
+  background: #ffa012;
+}
+
+@media (max-width: 428px) {
+  .sec11 .sec11-text p {
+    width: 90vw;
+  }
+  .sec11 .sec11-contact .contact .contact-info {
+    flex-direction: column;
+  }
+  .sec11 .sec11-contact .contact .contact-info .inf {
+    width: 80vw;
+  }
+  .sec11 .sec11-contact .contact .contact-form form .input-contact4 button {
+    width: 60vw;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
