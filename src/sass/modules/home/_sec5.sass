@@ -37,13 +37,14 @@
             .tab-content
                 .specials
                     display: flex
+                    align-items: center
                     .specials-text
-                        width: 40vw
                         h2
                             font-family: Satisfy
                             font-weight: 700
                             font-style: normal
                         p
+                            width: 40vw
                             color: gray
 @media (max-width: 428px)
     .sec5
@@ -55,9 +56,18 @@
             p
                 button
                     border-right: none
+        .sec5-navtab-btn
+            ul
+                display: flex
+                flex-direction: column
+                align-items: start
         .sec5-navtab-specials
             .tab-content
                 .specials
                     flex-direction: column-reverse
-                    .specials-text
-                        width: 90vw
+                    gap: 4vh
+                .specials-text
+                        p
+                            width: 90vw
+                            
+

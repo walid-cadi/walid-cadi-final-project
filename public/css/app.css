@@ -13099,9 +13099,7 @@ nav .right-nav .right-nav-btn a:hover {
 }
 .sec5 .sec5-navtab .sec5-navtab-specials .tab-content .specials {
   display: flex;
-}
-.sec5 .sec5-navtab .sec5-navtab-specials .tab-content .specials .specials-text {
-  width: 40vw;
+  align-items: center;
 }
 .sec5 .sec5-navtab .sec5-navtab-specials .tab-content .specials .specials-text h2, .sec5 .sec5-navtab .sec5-navtab-specials .tab-content .specials .specials-text .h2 {
   font-family: Satisfy;
@@ -13109,6 +13107,7 @@ nav .right-nav .right-nav-btn a:hover {
   font-style: normal;
 }
 .sec5 .sec5-navtab .sec5-navtab-specials .tab-content .specials .specials-text p {
+  width: 40vw;
   color: gray;
 }
 
@@ -13122,10 +13121,16 @@ nav .right-nav .right-nav-btn a:hover {
   .sec5 .sec5-navtab p button {
     border-right: none;
   }
+  .sec5 .sec5-navtab-btn ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   .sec5 .sec5-navtab-specials .tab-content .specials {
     flex-direction: column-reverse;
+    gap: 4vh;
   }
-  .sec5 .sec5-navtab-specials .tab-content .specials .specials-text {
+  .sec5 .sec5-navtab-specials .tab-content .specials-text p {
     width: 90vw;
   }
 }
