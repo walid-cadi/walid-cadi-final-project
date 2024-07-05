@@ -7,56 +7,60 @@
     align-items: center
     gap: 5vh
     padding: 10vh 5vw
-    .sec6-content
-        display: flex
-        flex-direction: column
-        align-items: center
-        gap: 3vh
-        h2
-            color: white
+    //.sec6-content
+    //    display: flex
+    //    flex-direction: column
+    //    align-items: center
+    //    gap: 3vh
+    h2
+        color: white
+        font-family: Satisfy
+        font-weight: 700
+        font-style: normal
+        span
+            color: #ffa012
             font-family: Satisfy
             font-weight: 700
             font-style: normal
-            span
-                color: #ffa012
-                font-family: Satisfy
-                font-weight: 700
-                font-style: normal
+    .sec6-carousel
+        .carousel-inner
+            .carousel-item
+                display: flex
+                gap: 2vw
+                img
+                    width: 50%
+                .carousel-content
+                    h3
+                        color: #ffa012
+                        font-family: Satisfy
+                        font-weight: 700
+                    h4
+                        font-weight: bold
+                        border-bottom: 2px solid #ffa012
+                    p
+                        font-weight: bold
+                    .tx-ic
+                        display: flex
+                        flex-direction: column
+                        .text-icon
+                            display: flex
+                            gap: 1vw
+                            i
+                                color: #ffa012
+
+@media (max-width: 428px)
+    .sec6
+        h2
+            text-align: center
         .sec6-carousel
             .carousel-inner
                 .carousel-item
                     display: flex
-                    gap: 2vw
+                    flex-direction: column
+                    gap: 2vh
                     img
-                        width: 50%
+                        width: 100%
                     .carousel-content
-                        h3
-                            color: #ffa012
-                            font-family: Satisfy
-                            font-weight: 700
-                        h4
-                            font-weight: bold
-                            border-bottom: 2px solid #ffa012
-                        p
-                            font-weight: bold
-                        .tx-ic
-                            display: flex
-                            flex-direction: column
-                            .text-icon
-                                display: flex
-                                gap: 1vw
-                                i
-                                    color: #ffa012
-
-@media (max-width: 428px)
-    .carousel-inner
-        .carousel-item
-            display: flex
-            flex-direction: column
-            gap: 2vh
-            img
-                
-            .carousel-content
-                display: flex
-                flex-direction: column
+                        display: flex
+                        flex-direction: column
 

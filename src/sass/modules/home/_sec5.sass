@@ -17,26 +17,24 @@
                 font-style: normal
         p
             width: 45vw
-    .sec5-collapse
+    .sec5-navtab
         display: flex
         gap: 2vw
-        .sec5-collapse-btn
-            p
+        .sec5-navtab-btn
+            ul
                 display: flex
                 flex-direction: column
-                gap: 6vh
-                text-align: start
-                button
-                    border: none
-                    background: #fff
-                    font-weight: bold
-                    padding-inline: 1vw
-                    border-right: 3px solid gray
-                    &:hover
-                        color: #ffa012
-                        border-right: 3px solid #ffa012
-        .sec5-collapse-specials
-            .collapse
+                align-items: start
+                li
+                    button
+                        border: none
+                        background: #fff
+                        font-weight: bold
+                        padding-inline: 1vw
+                        &:hover
+                            color: #ffa012
+        .sec5-navtab-specials
+            .tab-content
                 .specials
                     display: flex
                     .specials-text
@@ -52,15 +50,14 @@
         .sec5-text
             p
                 width: 90vw
-        .sec5-collapse
+        .sec5-navtab
             flex-direction: column
             p
                 button
                     border-right: none
-        .sec5-collapse-specials
-            .collapse
+        .sec5-navtab-specials
+            .tab-content
                 .specials
                     flex-direction: column-reverse
-                    gap: 3vh
                     .specials-text
-                        width: 90%
+                        width: 90vw

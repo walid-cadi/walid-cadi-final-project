@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <div class="retuen-home"><a href="#sec1"><i class="bi bi-arrow-up"></i></a></div>
   <div class="sec1" id="sec1">
     <nav>
       <div class="left-nav">
@@ -195,87 +196,167 @@
   </div>
   <div class="sec4" id="sec4">
     <h2>Check our tasty <span>Menu</span></h2>
-    <div class="sec4-collaps">
-      <div class="sec4-collaps-btn">
-        <p class="d-inline-flex gap-2">
-          <button class="nav-link active" data-bs-toggle="collapse" data-bs-target=".multi-collapse" type="button"
-            aria-expanded="false" aria-controls="Starters Specialty Salads">Show All</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#Starters" aria-expanded="false"
-            aria-controls="Starters">Starters</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#Salads" aria-expanded="false"
-            aria-controls="Salads">Salads</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#Specialty" aria-expanded="false"
-            aria-controls="Specialty">Specialty</button>
-        </p>
+    <div class="sec4-navtab">
+      <div class="sec4-navtab-btn">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class=" active" id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button"
+              role="tab" aria-controls="pills-All" aria-selected="true">Show All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-Starters-tab" data-bs-toggle="pill" data-bs-target="#pills-Starters"
+              type="button" role="tab" aria-controls="pills-Starters" aria-selected="false">Starters</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-Specialty-tab" data-bs-toggle="pill" data-bs-target="#pills-Specialty"
+              type="button" role="tab" aria-controls="pills-Specialty" aria-selected="false">Specialty</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-Salads-tab" data-bs-toggle="pill" data-bs-target="#pills-Salads" type="button"
+              role="tab" aria-controls="pills-Salads" aria-selected="false">Salads</button>
+          </li>
+
+        </ul>
       </div>
-      <div class="sec4-collaps-menu">
-        <div class="collapse multi-collapse tab-pane fade show active" id="Starters">
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Lobster Bisque</h4>
-              <h5>$5.95</h5>
+      <div class="sec4-navtab-menu">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="www d-flex fade flex-wrap gap-2 show active" id="pills-All" role="tabpanel"
+            aria-labelledby="pills-All-tab" tabindex="0">
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Lobster Bisque</h4>
+                <h5>$5.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
             </div>
-            <p>Lorem, deren, trataro, filede, nerada</p>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Crab Cake</h4>
+                <h5>$7.95</h5>
+              </div>
+              <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Mozzarella Stick</h4>
+                <h5>$4.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Bread barrel</h4>
+                <h5>$6.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Tuscan Grilled</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Lobster Roll</h4>
+                <h5>$12.95</h5>
+              </div>
+              <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Caesar Selections</h4>
+                <h5>$8.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Greek Salad</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Spinach Salad</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+            </div>
           </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Crab Cake</h4>
-              <h5>$7.95</h5>
+          <div class="www tab-pane fade" id="pills-Starters" role="tabpanel" aria-labelledby="pills-Starters-tab"
+            tabindex="0">
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Lobster Bisque</h4>
+                <h5>$5.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
             </div>
-            <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Crab Cake</h4>
+                <h5>$7.95</h5>
+              </div>
+              <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Mozzarella Stick</h4>
+                <h5>$4.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
           </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Mozzarella Stick</h4>
-              <h5>$4.95</h5>
+          <div class="www tab-pane fade" id="pills-Specialty" role="tabpanel" aria-labelledby="pills-Specialty-tab"
+            tabindex="0">
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Bread barrel</h4>
+                <h5>$6.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
             </div>
-            <p>Lorem, deren, trataro, filede, nerada</p>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Tuscan Grilled</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+            </div>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Lobster Roll</h4>
+                <h5>$12.95</h5>
+              </div>
+              <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+            </div>
           </div>
-        </div>
-        <div class="collapse multi-collapse tab-pane fade show active" id="Specialty">
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Bread barrel</h4>
-              <h5>$6.95</h5>
+          <div class="www tab-pane fade" id="pills-Salads" role="tabpanel" aria-labelledby="pills-Salads-tab"
+            tabindex="0">
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Caesar Selections</h4>
+                <h5>$8.95</h5>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
             </div>
-            <p>Lorem, deren, trataro, filede, nerada</p>
-          </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Tuscan Grilled</h4>
-              <h5>$9.95</h5>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Greek Salad</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
             </div>
-            <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
-          </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Lobster Roll</h4>
-              <h5>$12.95</h5>
+            <div class="menu card card-body">
+              <div class="menu-text">
+                <h4>Spinach Salad</h4>
+                <h5>$9.95</h5>
+              </div>
+              <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
             </div>
-            <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
-          </div>
-        </div>
-        <div class="collapse multi-collapse tab-pane fade show active" id="Salads">
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Caesar Selections</h4>
-              <h5>$8.95</h5>
-            </div>
-            <p>Lorem, deren, trataro, filede, nerada</p>
-          </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Greek Salad</h4>
-              <h5>$9.95</h5>
-            </div>
-            <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
-          </div>
-          <div class="menu card card-body">
-            <div class="menu-text">
-              <h4>Spinach Salad</h4>
-              <h5>$9.95</h5>
-            </div>
-            <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
           </div>
         </div>
       </div>
@@ -287,22 +368,111 @@
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
         autem.</p>
     </div>
-    <div class="sec5-collapse">
-      <div class="sec5-collapse-btn">
-        <p class=" gap-2">
-          <button class="nav-link active" data-bs-toggle="collapse" data-bs-target="#specials-1" type="button"
-            aria-expanded="false" aria-controls="specials-1">Modi sit est</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#specials-2" aria-expanded="false"
-            aria-controls="specials-2">Unde praesentium sed</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#specials-3" aria-expanded="false"
-            aria-controls="specials-3">Pariatur explicabo vel</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#specials-4" aria-expanded="false"
-            aria-controls="specials-4">Nostrum qui quasi</button>
-          <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#specials-5" aria-expanded="false"
-            aria-controls="specials-5">Iusto ut expedita aut</button>
-        </p>
+    <div class="sec5-navtab">
+      <div class="sec5-navtab-btn">
+        <ul class="nav flex-column gap-3 nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class=" active" id="pills-specials-1-tab" data-bs-toggle="pill" data-bs-target="#pills-specials-1"
+              type="button" role="tab" aria-controls="pills-specials-1" aria-selected="true">Modi sit est</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-specials-2-tab" data-bs-toggle="pill" data-bs-target="#pills-specials-2"
+              type="button" role="tab" aria-controls="pills-specials-2" aria-selected="false">Unde praesentium
+              sed</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-specials-3-tab" data-bs-toggle="pill" data-bs-target="#pills-specials-3"
+              type="button" role="tab" aria-controls="pills-specials-3" aria-selected="false">Pariatur explicabo
+              vel</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-specials-4-tab" data-bs-toggle="pill" data-bs-target="#pills-specials-4"
+              type="button" role="tab" aria-controls="pills-specials-4" aria-selected="false">Nostrum qui quasi</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="" id="pills-specials-5-tab" data-bs-toggle="pill" data-bs-target="#pills-specials-5"
+              type="button" role="tab" aria-controls="pills-specials-5" aria-selected="false">Iusto ut expedita
+              aut</button>
+          </li>
+        </ul>
+
       </div>
-      <div class="sec5-collapse-specials">
+      <div class="sec5-navtab-specials">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-specials-1" role="tabpanel"
+            aria-labelledby="pills-specials-1-tab" tabindex="0">
+            <div class="specials">
+              <div class="specials-text">
+                <h2>Architecto ut aperiam autem id</h2>
+                <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona
+                  marka</p>
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit
+                  magni. Incidunt hic
+                  ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat
+                  quos qui
+                  similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="specials-img"><img width="200" src="./public/img/specials-1.jpg" alt=""></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-specials-2" role="tabpanel" aria-labelledby="pills-specials-2-tab"
+            tabindex="0">
+            <div class="specials">
+              <div class="specials-text">
+                <h2>Et blanditiis nemo veritatis excepturi</h2>
+                <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona
+                  marka</p>
+                <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non
+                  aliquid
+                  repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode
+                  pakto madirna
+                  desera vafle de nideran pal</p>
+              </div>
+              <div class="specials-img"><img width="200" src="./public/img/specials-2.jpg" alt=""></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-specials-3" role="tabpanel" aria-labelledby="pills-specials-3-tab"
+            tabindex="0"><div class="specials">
+              <div class="specials-text">
+                <h2>Impedit facilis occaecati odio neque aperiam sit</h2>
+                <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et.
+                  In asperiores
+                  velit quaerat perferendis aut</p>
+                <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus
+                  illo rerum eum
+                  ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam.
+                  Soluta et harum
+                  voluptatem optio quae</p>
+              </div>
+              <div class="specials-img"><img width="200" src="./public/img/specials-3.jpg" alt=""></div>
+            </div></div>
+          <div class="tab-pane fade" id="pills-specials-4" role="tabpanel" aria-labelledby="pills-specials-4-tab"
+            tabindex="0"><div class="specials">
+              <div class="specials-text">
+                <h2>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h2>
+                <p>Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus
+                  velit quaerat perferendis aut</p>
+                <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam
+                  fugiat debitis quis
+                  velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam
+                  quia a laborum
+                  inventore</p>
+              </div>
+              <div class="specials-img"><img width="200" src="./public/img/specials-4.jpg" alt=""></div>
+            </div></div>
+          <div class="tab-pane fade" id="pills-specials-5" role="tabpanel" aria-labelledby="pills-specials-5-tab"
+            tabindex="0"><div class="specials">
+              <div class="specials-text">
+                <h2>Est eveniet ipsam sindera pad rone matrelat sando reda</h2>
+                <p>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod
+                  eius qui. Ipsum quia
+                  odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+              </div>
+              <div class="specials-img"><img width="200" src="./public/img/specials-5.jpg" alt=""></div>
+            </div></div>
+        </div>
+        <!--
         <div class="collapse multi-collapse tab-pane fade show active" id="specials-1">
           <div class="specials">
             <div class="specials-text">
@@ -376,123 +546,123 @@
             <div class="specials-img"><img width="200" src="./public/img/specials-5.jpg" alt=""></div>
           </div>
         </div>
+        -->
       </div>
     </div>
   </div>
   <div class="sec6" id="sec6">
-    <div class="sec6-content">
-      <h2>Organize Your <span>Events</span> in our Restaurant</h2>
-      <div class="sec6-carousel">
-        <div id="carouselsec6" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2000">
-              <img src="./public/img/event-birthday.jpg" class="d-block w-50 " alt="...">
-              <div class="carousel-content text-light">
-                <h3>Birthday Parties</h3>
-                <h4>$189</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et
-                  dolore
-                  magna aliqua.</p>
-                <div class="tx-ic">
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                      aute irure dolor in reprehenderit in voluptate trideta
-                      storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                    </p>
-                  </div>
+    <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+    <div class="sec6-carousel">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./public/img/event-birthday.jpg" class="d-block  " alt="...">
+            <div class="carousel-content text-light">
+              <h3>Birthday Parties</h3>
+              <h4>$189</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore
+                magna aliqua.</p>
+              <div class="tx-ic">
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="./public/img/event-custom.jpg" class="d-block w-50 " alt="...">
-              <div class="carousel-content text-light">
-                <h3>Custom Parties</h3>
-                <h4>99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et
-                  dolore
-                  magna aliqua.</p>
-                <div class="tx-ic">
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                      aute irure dolor in reprehenderit in voluptate trideta
-                      storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                    </p>
-                  </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                 </div>
-                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="./public/img/event-private.jpg" class="d-block w-50 " alt="...">
-              <div class="carousel-content text-light">
-                <h3>Private Parties</h3>
-                <h4>$290</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et
-                  dolore
-                  magna aliqua.</p>
-                <div class="tx-ic">
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                  </div>
-                  <div class="text-icon">
-                    <i class="bi bi-check-circle"></i>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                      aute irure dolor in reprehenderit in voluptate trideta
-                      storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                    </p>
-                  </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta
+                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  </p>
                 </div>
-                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselsec6" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselsec6" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img src="./public/img/event-custom.jpg" class="d-block " alt="...">
+            <div class="carousel-content text-light">
+              <h3>Custom Parties</h3>
+              <h4>99</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore
+                magna aliqua.</p>
+              <div class="tx-ic">
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta
+                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+              </div>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./public/img/event-private.jpg" class="d-block  " alt="...">
+            <div class="carousel-content text-light">
+              <h3>Private Parties</h3>
+              <h4>$290</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore
+                magna aliqua.</p>
+              <div class="tx-ic">
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+                <div class="text-icon">
+                  <i class="bi bi-check-circle"></i>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate trideta
+                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+              </div>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
+
   </div>
   <div class="sec7" id="sec7">
     <div class="sec7-text">
