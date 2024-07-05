@@ -1,0 +1,65 @@
+.sec5
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 3vh
+    .sec5-text
+        text-align: center
+        h2
+            font-family: Satisfy
+            font-weight: 700
+            font-style: normal
+            span
+                color: #ffa012
+                font-family: Satisfy
+                font-weight: 700
+                font-style: normal
+        p
+            width: 45vw
+    .sec5-collapse
+        display: flex
+        gap: 2vw
+        .sec5-collapse-btn
+            p
+                display: flex
+                flex-direction: column
+                gap: 6vh
+                text-align: start
+                button
+                    border: none
+                    background: #fff
+                    font-weight: bold
+                    padding-inline: 1vw
+                    border-right: 3px solid gray
+                    &:hover
+                        color: #ffa012
+                        border-right: 3px solid #ffa012
+        .sec5-collapse-specials
+            .collapse
+                .specials
+                    display: flex
+                    .specials-text
+                        width: 40vw
+                        h2
+                            font-family: Satisfy
+                            font-weight: 700
+                            font-style: normal
+                        p
+                            color: gray
+@media (max-width: 428px)
+    .sec5
+        .sec5-text
+            p
+                width: 90vw
+        .sec5-collapse
+            flex-direction: column
+            p
+                button
+                    border-right: none
+        .sec5-collapse-specials
+            .collapse
+                .specials
+                    flex-direction: column-reverse
+                    gap: 3vh
+                    .specials-text
+                        width: 90%

@@ -12192,40 +12192,127 @@ nav .right-nav .right-nav-btn a:hover {
 .sec4 .sec4-collaps .sec4-collaps-menu {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 1vw;
+  gap: 1vh;
 }
-.sec4 .sec4-collaps .sec4-collaps-menu .menu {
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse {
+  display: flex;
+  gap: 2vw;
+}
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu {
   display: flex;
   flex-direction: column;
+  width: 25vw;
 }
-.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text {
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu .menu-text {
   display: flex;
+  justify-content: space-between;
   gap: 3px;
 }
-.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text h4, .sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text .h4 {
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu .menu-text h4, .sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu .menu-text .h4 {
   color: #ffb03b;
 }
-.sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text h5, .sec4 .sec4-collaps .sec4-collaps-menu .menu .menu-text .h5 {
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu .menu-text h5, .sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu .menu-text .h5 {
   font-weight: bold;
 }
-.sec4 .sec4-collaps .sec4-collaps-menu .menu p {
+.sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu p {
   color: gray;
 }
 
 @media (max-width: 428px) {
   .sec4 .sec4-collaps .sec4-collaps-btn {
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 5vw;
   }
   .sec4 .sec4-collaps .sec4-collaps-menu {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
-  .sec4 .sec4-collaps .sec4-collaps-menu .menu {
+  .sec4 .sec4-collaps .sec4-collaps-menu .collapse {
     display: flex;
     flex-direction: column;
+    gap: 2vw;
+  }
+  .sec4 .sec4-collaps .sec4-collaps-menu .collapse .menu {
+    flex-direction: column;
+    width: 90vw;
+  }
+}
+.sec5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+.sec5 .sec5-text {
+  text-align: center;
+}
+.sec5 .sec5-text h2, .sec5 .sec5-text .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec5 .sec5-text h2 span, .sec5 .sec5-text .h2 span {
+  color: #ffa012;
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec5 .sec5-text p {
+  width: 45vw;
+}
+.sec5 .sec5-collapse {
+  display: flex;
+  gap: 2vw;
+}
+.sec5 .sec5-collapse .sec5-collapse-btn p {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  text-align: start;
+}
+.sec5 .sec5-collapse .sec5-collapse-btn p button {
+  border: none;
+  background: #fff;
+  font-weight: bold;
+  padding-inline: 1vw;
+  border-right: 3px solid gray;
+}
+.sec5 .sec5-collapse .sec5-collapse-btn p button:hover {
+  color: #ffa012;
+  border-right: 3px solid #ffa012;
+}
+.sec5 .sec5-collapse .sec5-collapse-specials .collapse .specials {
+  display: flex;
+}
+.sec5 .sec5-collapse .sec5-collapse-specials .collapse .specials .specials-text {
+  width: 40vw;
+}
+.sec5 .sec5-collapse .sec5-collapse-specials .collapse .specials .specials-text h2, .sec5 .sec5-collapse .sec5-collapse-specials .collapse .specials .specials-text .h2 {
+  font-family: Satisfy;
+  font-weight: 700;
+  font-style: normal;
+}
+.sec5 .sec5-collapse .sec5-collapse-specials .collapse .specials .specials-text p {
+  color: gray;
+}
+
+@media (max-width: 428px) {
+  .sec5 .sec5-text p {
+    width: 90vw;
+  }
+  .sec5 .sec5-collapse {
+    flex-direction: column;
+  }
+  .sec5 .sec5-collapse p button {
+    border-right: none;
+  }
+  .sec5 .sec5-collapse-specials .collapse .specials {
+    flex-direction: column-reverse;
+    gap: 3vh;
+  }
+  .sec5 .sec5-collapse-specials .collapse .specials .specials-text {
+    width: 90%;
   }
 }
 .sec6 {
@@ -12503,7 +12590,7 @@ nav .right-nav .right-nav-btn a:hover {
   width: 45vw;
 }
 .sec11 .sec11-contact {
-  padding: 7vh 5vw;
+  padding: 7vh 0vw;
 }
 .sec11 .sec11-contact .contact {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1019607843);
